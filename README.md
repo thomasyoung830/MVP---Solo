@@ -19,7 +19,7 @@
   Our product can help people see and visualize data by bringing it to life.
 
 ## How to Get Started ##
-  Simply upload your data file into our application, choose your chart/graph template and you're ready to go!
+  Simply upload your data file into our application, choose your chart/graph template and you're ready to go! I've provided a sample csv file you can use called ProjectedQuarRev.csv in this repo.
 
 ## Customer Quote ##
   "Big D helped us visualize our customer sales data in a whole new way. With their amazing charting tools, we were able to indentify and capitalize on customer trends which increased our quarterly revenue by 25%."
