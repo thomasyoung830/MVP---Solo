@@ -17,36 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
   The name of my application is Big D as it relates to Big Data.
-  Big D
+
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
   Bring your data to life with our visualtion tools.  
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
   My product will transform your data into an interactive chart or graph within seconds, giving ability to analyze and share your data with amazing visuals. You no longer have to use boring Excel charts to present or analyze your data. It's as simple as uploading your file into our application and choosing with visuals you like to use.
 
 ## Problem ##
-  > Describe the problem your product solves.
   Provide business' with an easy-to-use and cost effective method for analyzing big data files.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
   You can generate a visually rich graphic with just a few clicks and seconds.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
   Our product can help people see and visualize data by bringing it to life.
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
   Simply upload your data file into our application, choose your chart/graph template and you're ready to go!
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
   "Big D helped us visualize our customer sales data in a whole new way. With their amazing charting tools, we were able to indentify and capitalize on customer trends which increased our quarterly revenue by 25%."
 
 ## Closing and Call to Action ##

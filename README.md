@@ -1,47 +1,30 @@
 
-# MVP (Solo) Project
-
-### Overview:
-
-You have 36 hours to produce something compelling using the skills you've honed over the past five weeks. 
-
-__Q:__ What are your inputs?
-<br>
-__A:__ 36 hours of (relatively) undivided attention
-
-__Q:__ What is the required output?
-<br>
-__A:__ A compelling product presentation delivered to your classmates.
+## Heading ##
+  The name of my application is Big D as it relates to Big Data.
 
 
-### Getting Started:
+## Sub-Heading ##
+  Bring your data to life with our visualtion tools.  
 
-To build on your learning of core engineering concepts, we will begin thinking about how to actually manage projects. Engineering management is a deep skill and discipline with lots of history and academic writing. We will focus on just some highlights of content to give a very brief context of how we arrive here.
+## Summary ##
+  My product will transform your data into an interactive chart or graph within seconds, giving ability to analyze and share your data with amazing visuals. You no longer have to use boring Excel charts to present or analyze your data. It's as simple as uploading your file into our application and choosing with visuals you like to use.
 
-* Use an [Iterative and incremental development process](http://en.wikipedia.org/wiki/Iterative_and_incremental_development) instead of a [Waterfall Process](http://en.wikipedia.org/wiki/Waterfall_model)
+## Problem ##
+  Provide business' with an easy-to-use and cost effective method for analyzing big data files.
 
-<!--
-*  [Agile](http://en.wikipedia.org/wiki/Agile_software_development) - is a modern eveolution of Iterative and Incremental Development (IID) that further formalizes the IID philosophy with a set of principles and best practices. It also applies Lean Manufacturing process like [Kanban](http://en.wikipedia.org/wiki/Kanban).-->
+## Solution ##
+  You can generate a visually rich graphic with just a few clicks and seconds.
 
-<!--* [Lean Product Process](http://theleanstartup.com/principles) - Takes the essence of Agile Development methodology and applies it more broadly to the development of product and buiness models that support he requirements of the project.
--->
+## Quote from You ##
+  Our product can help people see and visualize data by bringing it to life.
 
+## How to Get Started ##
+  Simply upload your data file into our application, choose your chart/graph template and you're ready to go!
 
-## Basic Requirements
-- [ ] Fork the repo
-- Complete the PRESS-RELEASE.md template (<30min)
-  - [ ] Pick an idea (implement a technology, build a product, make art, etc).
-  - [ ] Write it down on paper
-  - [ ] Imagine what portion of this could be done in 24 hours.
-  - [ ] Cut the scope in half.
-  - [ ] Cut the above scope in half again.
-  - [ ] Fill in the README.md template document
-- [ ] Use iterative development (go straight to something that demos your idea)
-- [ ] Prepare for pitch @ demo on Tuesday
+## Customer Quote ##
+  "Big D helped us visualize our customer sales data in a whole new way. With their amazing charting tools, we were able to indentify and capitalize on customer trends which increased our quarterly revenue by 25%."
 
-
-## Extra Credit
-
-- [ ] Storage - if your app persists data, use a tool like Parse or Firebase. 
-- [ ] If applicable, use an MVC Framework - Make your app production grade with a full-on MVC. 
+## Closing and Call to Action ##
+  > Wrap it up and give pointers where the reader should go next.
+  Bring your data to life now with our free trial!
 
