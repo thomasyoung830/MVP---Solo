@@ -1,4 +1,5 @@
 // SERVER-SIDE JAVASCRIPT
+//currently not hooked up yet
 
 // require express and other modules
 var express = require('express'),
@@ -17,7 +18,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // SERVING HTML FILE
 app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/public/views/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 

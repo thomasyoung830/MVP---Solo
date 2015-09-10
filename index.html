@@ -44,6 +44,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#"><i class="fa fa-bar-chart"> BIG D </i></a></li>
         <li><a href="#">About Us</a></li>
+        <li><a href="#">Products</a></li>
         <li class="Community">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -124,29 +125,31 @@
         <div class="item active">
                     <img src="images/img-1.jpg" />
                     <div class="carousel-caption">
-                        <h1 class="carousel-caption-header">Slide 1</h1>
+                        <h1 class="carousel-caption-header">Bring Your Data to Life</h1>
                         <p class="carousel-caption-text hidden-sm hidden-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim aliquet rutrum. Praesent vitae ante in nisi condimentum egestas. Aliquam.
+                            
                         </p>
                     </div>
                 </div>
                 
                 <div class="item">
-                    <img src="images/img-2.jpg" />
-                    <div class="carousel-caption">
-                        <h1 class="carousel-caption-header">Slide 2</h1>
-                        <p class="carousel-caption-text hidden-sm hidden-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim aliquet rutrum. Praesent vitae ante in nisi condimentum egestas. Aliquam.
-                        </p>
+                    <img src="images/oldchart.png" id="one"/>
+                    <img src="http://www.clker.com/cliparts/Z/Z/S/Y/S/w/red-circle-cross-transparent-background-md.png" id="two"/>
+
+                    <div class="carousel-caption" id="header2">
+                        <h1 class="carousel-caption-header" id="head2">Say No To Boring Charts</h1>
+                        <!-- <p class="carousel-caption-text hidden-sm hidden-xs">
+                            
+                        </p> -->
                     </div>
                 </div>
                 
                 <div class="item">
                     <img src="images/img-3.jpg" />
                     <div class="carousel-caption">
-                        <h1 class="carousel-caption-header">Slide 3</h1>
+                        <h1 class="carousel-caption-header">Analyze Your Data the Way You Want</h1>
                         <p class="carousel-caption-text hidden-sm hidden-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim aliquet rutrum. Praesent vitae ante in nisi condimentum egestas. Aliquam.
+                            
                         </p>
                     </div>
                 </div>
@@ -168,21 +171,18 @@
   <!-- END OF CAROUSEL -->
 
 <center>
-<p id="intro"> Pipe your data into the <i class="fa fa-bar-chart"> BIG D </i></p>
+<p id="intro">Upload Your Data Here</i></p>
 </center>
 
 <!-- BUTTON -->
 <center>
-<input class="btn btn-default" type="file" value="Upload File" id="txtFileUpload"
+<input class="fileUpload btn btn-primary" type="file" value="Upload File" id="txtFileUpload"
   accept=".csv"/>
   </input>
 </center>
 
-<button type="button" id="button2">Transform Data</button>
-<!-- END OF BUTTON -->
-<div class="chart" id="bar-demo">
 
-</div>
+<!-- END OF BUTTON -->
 
 <!-- <div id="dvImportSegments" class="fileupload "> -->
 
@@ -191,16 +191,17 @@
 
 
 
- <!-- Load D3 -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
-
-  <script type="text/javascript" src="csvupload.js"></script>
- 
+ <!-- Load D3, Jquery, Underscore, Jquery-CSV -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script> 
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.js"></script>
 
  <!-- Latest compiled and minified Bootstrap JavaScript -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
  <!-- custom script -->
- <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="d3animation.js"></script>
+  <script type="text/javascript" src="navBarFade.js"></script>
 </body>
 </html>

@@ -4,6 +4,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
+  /*font-size: 15px;*/
 }
 
 #intro {
@@ -13,6 +14,29 @@
 /*remove navbar bottom margin*/
 .navbar {
     margin-bottom: 0;
+    background-color: #0066FF;
+    color: white;
+}
+
+.nav.navbar-nav {
+  /*font-size: 15px;*/
+}
+
+.nav.navbar-nav li a {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li p {
+    color: white;
+}
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: white !important;
 }
 
 /*remove round corners*/
@@ -53,21 +77,123 @@
     background-image: none
 }
 
-.chart div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
 
 .button2 {
   position: relative;
   left: 40px;
 }
 
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 475px; /*slider height*/
+    height: 475px;
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+    max-height: 475px;
+}
+
+.carousel .item2 img{
+    width: 50%; /*img width*/
+    max-height: 475px;
+    margin: 0 auto;
+    /*z-index:1;*/
+}
+
+.carousel-caption-header {
+  font-size: 40px;
+}
+
+.carousel-caption-header .head2 {
+  font-size: 100px;
+}
 
 
+#header2 {
+  position: static;
+  text-align: center;
+  right: 700px;
+  color: black;
+  top: 500px;
+  padding-left:820px;
+  padding-top: 250px;
+  font-size: 40px;
+}
 
+#one{
+    width: 50%; /*img width*/
+    max-height: 475px;
+    margin: 0 auto;
+    z-index:1;
+    position:absolute;
+    left:150px;
+    top:100px;
+    z-index:1;
+}
 
+#two {
+  width: 25%; /*img width*/
+    max-height: 350px;
+    position:absolute;
+    margin: 0 auto;
+    top:100px;
+    z-index:2;
+    left: 300px;
+
+/*left:40px;
+top:10px;*/
+}
+/*add some makeup*/
+/*.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}*/
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-fixed-top {
+    min-height: 90px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 90px;
+}
+
+/*for d3 charts*/
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+svg {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 20px;
+}
+
+*/
