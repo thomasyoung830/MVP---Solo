@@ -1,6 +1,6 @@
 
 ## Heading ##
-  The name of my application is Big D as it relates to Big Data.
+  The name of my application is Vizual Data.
 
 
 ## Sub-Heading ##
